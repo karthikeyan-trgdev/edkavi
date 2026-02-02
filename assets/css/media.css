@@ -416,6 +416,7 @@
     width: 100%;
     transition: all 0.35s ease-in-out;
     overflow: hidden;
+    border: 1px solid #fff;
   }
   .main-header-menu .logo {
     display: flex;
@@ -432,6 +433,7 @@
   }
   .copy-right {
     order: 2;
+    text-align: center;
   }
   .social-icon {
     gap: 15px;
