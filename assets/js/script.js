@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
       strings: [
         "",
         "Toprock Interiors.",
-        "CMIS School.",
+        "CMIS.",
         "Lab of Future.",
         "VB World.",
         "Jehangir’s Restaurant.",
