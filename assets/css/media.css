@@ -5,7 +5,7 @@
   display: none;
 }
   .main-padding{
-    padding: 45px;
+    padding:70px 45px;
   }
   .section-title-name{
     font-size: 30px;
@@ -44,8 +44,14 @@
   .title-section-name {
     margin-top: 15px;
   }
-
+  .very-left{
+    width: 60%;
+  }
+}
   @media (min-width: 1700px) {
+    .very-left{
+      width: 65%;
+    }
   .container,
   .container-lg,
   .container-md,
@@ -85,9 +91,8 @@
     font-size: 45px;
   }
   .main-padding{
-    padding: 60px;
+    padding:100px 60px;
   }
-}
 }
 @media (min-width: 1290px) and (max-width: 1400px) {
   .hybrid br {
@@ -190,6 +195,11 @@
   }
 }
 @media (max-width: 992px) {
+.bag-image {
+    background-image: url(../images/mobile_dr_kavi.jpeg);
+    height: 760px;
+    background-position: bottom !important;
+}
   .social-icon-main img{
     filter: brightness(0) invert(1);
   }
@@ -403,12 +413,12 @@
     font-weight: 500;
     font-family: "Unbounded", serif;
     font-size: 16px;
-    color: #ff5e03;
+    color: #fff;
     display: block;
     transition: all 0.35s ease-in-out;
   }
   .main-header-menu .tabs-li {
-    background-color: #000;
+    background-color: #14427B;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -464,6 +474,7 @@
   }
   .white-round {
     width: 100%;
+    display: none;
   }
   .white-round img {
     width: 70px;
