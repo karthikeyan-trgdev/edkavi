@@ -160,7 +160,7 @@ body {
   border: 1px solid #1f140b;
   border-radius: 50%;
   animation: pulse 2.5s linear infinite;
-  box-shadow: 0 0 50px 5px #1f140b00058;
+  box-shadow: 0 0 50px 5px #1f140b15;
 }
 .cursor div:nth-child(1),
 .cursor div:nth-child(2) {
@@ -620,6 +620,7 @@ body {
 .social-design:hover {
   background-color: #14427B;
   border-color: #14427B;
+  color: #Fff;
   transition: all ease-in-out 0.35s;
 }
 /* --------------------------------- background Animation ---------------------------- */
@@ -979,7 +980,7 @@ canvas {
   -webkit-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #1f140b000;
+  background: #0000006e;
   border-radius: 20px;
 }
 .flip-box-front {
